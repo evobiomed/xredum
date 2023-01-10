@@ -1,0 +1,295 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1168,
+      "max": [
+        24.831602096557617,
+        36.257015228271484,
+        30.6229248046875
+      ],
+      "min": [
+        5.181999206542969,
+        9.51837158203125,
+        -11.961710929870605
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14016,
+      "componentType": 5126,
+      "count": 1168,
+      "max": [
+        0.9999505281448364,
+        0.9905939102172852,
+        0.9743238091468811
+      ],
+      "min": [
+        -0.9999505281448364,
+        -0.9905939102172852,
+        -0.9743238091468811
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1168,
+      "max": [
+        0.8235294222831726,
+        0.7058823704719543,
+        0.5490196347236633,
+        1.0
+      ],
+      "min": [
+        0.8235294222831726,
+        0.7058823704719543,
+        0.5490196347236633,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3432,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28032,
+      "componentType": 5126,
+      "count": 7152,
+      "max": [
+        24.425682067871094,
+        32.70287322998047,
+        29.784515380859375
+      ],
+      "min": [
+        6.105921745300293,
+        10.27799129486084,
+        -10.526176452636719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 113856,
+      "componentType": 5126,
+      "count": 7152,
+      "max": [
+        0.9997314214706421,
+        0.9972743391990662,
+        0.9991956353187561
+      ],
+      "min": [
+        -0.9997314214706421,
+        -0.9968423843383789,
+        -0.9991956353187561
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18688,
+      "componentType": 5126,
+      "count": 7152,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.250980406999588,
+        0.250980406999588,
+        0.250980406999588,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13728,
+      "componentType": 5125,
+      "count": 31104,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "S.Duce (https://sketchfab.com/sduce)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dna-ribbon-molecular-model-e3f82ab0c50a490bbace8d5ccc4698b8",
+      "title": "DNA Ribbon Molecular Model"
+    },
+    "generator": "Sketchfab-12.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 138144,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 199680,
+      "byteOffset": 138144,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 133120,
+      "byteOffset": 337824,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 470944,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.10000000149011612,
+        2.1081153783560157e-32,
+        -5.053215467743089e-17,
+        0.0,
+        9.860761462199441e-33,
+        0.10000000149011612,
+        6.661338247012613e-17,
+        0.0,
+        5.053215467743089e-17,
+        -6.661338247012613e-17,
+        0.10000000149011612,
+        0.0,
+        -1.2434497875801753e-14,
+        32.21831512451172,
+        -13.557156562805169,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "1bna_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "ribbons_1"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_5"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "nucleotides_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_7"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
