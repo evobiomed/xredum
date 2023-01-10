@@ -155,7 +155,7 @@
   "buffers": [
     {
       "byteLength": 470944,
-      "uri": "scene.bin"
+      "uri": "https://raw.githubusercontent.com/evobiomed/xredum/main/scene.bin"
     }
   ],
   "materials": [
