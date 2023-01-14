@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AR.js 3D Model Viewer</title>
+    <script src="https://cdn.jsdelivr.net/gh/jeromeetienne/AR.js@2.0.0/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body>
+    <h1>3D Model Viewer</h1>
+    <a-scene  embedded arjs>
+       <a-marker preset="hiro">
+         <a-box position='0 0.5 0' material='color:red;'></a-box>
+       </a-marker>
+       <a-camera-static/>
+    </a-scene>
+  </body>
+</html>
